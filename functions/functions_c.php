@@ -1,9 +1,6 @@
-<?php
-
-$result;
 
 function getStatus(): bool {};
-function sendNotification() {};
+function sendNotification(): void {};
 
 // Not good
 function isReady() {

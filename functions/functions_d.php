@@ -1,7 +1,3 @@
-<?php
-
-function sendMessage() {};
-function sendNotification() {};
 
 // Not good
 function trySendMess() {

@@ -1,19 +1,22 @@
-<?php
 
 // Wrong
-function feedCats($cats) {
+function feedCats($cats): void
+{
     $cats->feed();
     $cats->walk();
     $cats->wash();
 }
 
 // Better
-function feedCat($cat) {
+function feedCat($cat): void
+{
     $cat->feed();
 }
-function walkCat($cat) {
+function walkCat($cat): void
+{
     $cat->walk();
 }
-function washCat($cat) {
+function washCat($cat): void
+{
     $cat->wash();
 }
